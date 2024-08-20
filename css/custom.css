@@ -1,0 +1,29 @@
+.spacer {
+    height: 200px;
+}   
+
+.link {
+    color: white;
+}
+
+
+.altportfolio-thumb {
+    height: 240px; /* Default height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+    .altportfolio-thumb {
+        height: 200px; /* Height for screens smaller than 1200px */
+    }
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
